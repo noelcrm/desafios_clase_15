@@ -1,17 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 /* general body */
 body {
     background-image: url(../img/ovillos.svg);
     background-size: cover;
+
 }
 /* cierre general body */
 
 /* css general header - footer */
 header {
-    background-color: #FFFFFF;
+    background-color:#FFFFFF;
 	top: 0px;
     position: sticky;
     z-index: 1;
@@ -43,17 +40,18 @@ footer {
     background-color: #FFFFFF;
 }
 footer img {
-    width: 50px;
-    height: 51,102px;
-    padding-left: 16px;
-    padding-top: 16px;
-    padding-bottom: 10px;
+    width: 70px;
+    height: 70px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.iso {
+    text-align: center;
 }
 footer p {
     color: #EC1C24;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
-    justify-self: center;
     text-align: center;
     margin: 0%;
 }
@@ -65,6 +63,7 @@ footer p {
 }
 .redes a {
     color: #EC1C24;
+    font-size: 2rem;
 }
 .redesDiv {
     display: flex;
@@ -131,7 +130,6 @@ footer p {
     justify-self: center;
 }
 /* cierre estilo textos */
-
 .enlaces a {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
@@ -143,7 +141,6 @@ footer p {
 }
 .queOfrezco {
     padding-top: 20px;
-    padding-left: 180px;
 }
 .queOfrezco p {
     background-color: #FBD2D3;
