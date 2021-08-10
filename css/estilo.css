@@ -69,7 +69,6 @@ footer p {
 .redesDiv {
     display: flex;
     flex-direction: column;
-    padding-right: 16px;
 }
 .redesDiv p {
    display: block;
@@ -89,6 +88,9 @@ footer p {
     font-family: 'Roboto Slab', serif;
     text-align: center;
     text-transform: uppercase;
+    /*para el catalogo*/
+    margin-top: 2rem;
+    padding: 0;
 }
 .tituloSobreMi {
     color: #FBD2D3;
@@ -222,6 +224,11 @@ footer p {
 
 
 /* modificaciones para git */
+/* agregar un margin bottom 1rem */
+.contenedorCards {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
 .cardProducto {
     background-color: #FBD2D3;
     border-radius: 1rem;
@@ -249,6 +256,11 @@ footer p {
     height: 13rem;
     margin-top: 1rem;
     border-radius: 1rem;
+}
+.cardImagen:hover {
+    transform: scale(1.5,1.5);
+    transition:1s;
+    cursor: pointer;
 }
 @media only screen and (min-width:0px) and (max-width:767px) {
 
@@ -333,5 +345,8 @@ footer p {
     .errorNoel p {
         font-size: 0.8rem;
         text-align: center;
+    }
+    .cardProducto {
+        margin-top: 1rem;
     }
 }
